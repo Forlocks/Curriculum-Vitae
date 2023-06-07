@@ -40,7 +40,7 @@ function reverseArr(n) {
 * Next projects coming soon...
 
 ## Education
-* St. Petersburg State University of Aerospace Instrumentation - Laser technique and laser technology (in the process, third course)
+* St. Petersburg State University of Aerospace Instrumentation - Laser technique and laser technology (in the process, fourth course)
 * Courses on the educational platform Stepik:
     * Web Development for Beginners: HTML and CSS (100% + Certificate)
     * JavaScript for Beginners (100% + Certificate)
