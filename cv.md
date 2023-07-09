@@ -20,7 +20,10 @@ I am 20 years old, study at the St. Petersburg State University of Aerospace Ins
 ```
 'use strict';
 
-//A function that returns an array of integers from the given number up to and including 1
+/*
+A function that returns an array of integers
+from the given number up to and including 1
+*/
 
 function reverseArr(n) {
   let arr = [];

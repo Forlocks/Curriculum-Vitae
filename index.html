@@ -4,35 +4,36 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Aleksey Shelukhin</title>
-  <link rel="icon" href="assets/favicon.ico">
+  <link rel="icon" href="assets/icons/favicon.ico">
   <link rel="stylesheet" href="styles/reset.css">
   <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/animation.css">
 </head>
 <body>
   <header>
     <nav>
       <ul>
-        <li>
+        <a href="#contacts" style="text-decoration: none; color: #FCFCFC"><li>
           Contact information
-        </li>
-        <li>
+        </li></a>
+        <a href="#about" style="text-decoration: none; color: #FCFCFC"><li>
           About me
-        </li>
-        <li>
+        </li></a>
+        <a href="#skills" style="text-decoration: none; color: #FCFCFC"><li>
           Skills
-        </li>
-        <li>
+        </li></a>
+        <a href="#code" style="text-decoration: none; color: #FCFCFC"><li>
           Code example
-        </li>
-        <li>
+        </li></a>
+        <a href="#projects" style="text-decoration: none; color: #FCFCFC"><li>
           Projects
-        </li>
-        <li>
+        </li></a>
+        <a href="#education" style="text-decoration: none; color: #FCFCFC"><li>
           Education
-        </li>
-        <li>
+        </li></a>
+        <a href="#languages" style="text-decoration: none; color: #FCFCFC"><li>
           Languages
-        </li>
+        </li></a>
       </ul>
     </nav>
   </header>
@@ -43,9 +44,32 @@
         Aleksey Shelukhin
       </h1>
     </section>
-    <div class="transition">
+    <div class="transition_one">
     </div>
-    <section class="contacts">
+    <section id="code" class="code">
+      <h2>CODE EXAMPLE</h2>
+      <pre><code><span style="color: rgb(0, 228, 0);">'use strict';</span>
+
+<span style="color: rgb(154, 154, 154)">/*
+A function that returns an array of integers
+from the given number up to and including 1
+*/
+</span>
+<span style="color: rgb(255, 75, 255);">function</span> <span style="color: rgb(0, 214, 189);">reverseArr</span>(n) {
+<span style="color: rgb(255, 75, 255);">  let</span> arr = [];
+<span style="color: rgb(255, 75, 255);">  let</span> j = -1;
+
+<span style="color: rgb(255, 75, 255)">  while</span> (n > 0) {
+    arr[++j] = n;
+    --n;
+  }
+
+<span style="color: rgb(255, 75, 255)">  return</span> arr;
+}</code></pre>
+    </section>
+    <div class="transition_two">
+    </div>
+    <section id="contacts" class="contacts">
       <article class="contacts_container">
         <img src="../rsschool-cv/assets/images/contact_information.jpg" title="Contact information" alt="Contact information" width="340" height="340">
         <div class="contacts_description">
@@ -64,7 +88,7 @@
         </div>
       </article>
     </section>
-    <section class="about">
+    <section id="about" class="about">
       <article class="about_container">
         <div class="about_description">
           <h2>About me</h2>
@@ -78,7 +102,7 @@
         <img src="../rsschool-cv/assets/images/about_me.jpg" title="About me" alt="About me" width="340" height="340">
       </article>
     </section>
-    <section class="skills">
+    <section id="skills" class="skills">
       <article class="skills_container">
         <img src="../rsschool-cv/assets/images/skills.jpg" title="Skills" alt="Skills" width="340" height="340">
         <div class="skills_description">
@@ -106,7 +130,7 @@
         </div>
       </article>
     </section>
-    <section class="projects">
+    <section id="projects" class="projects">
       <article class="projects_container">
         <div class="projects_description">
           <h2>Projects</h2>
@@ -122,7 +146,7 @@
         <img src="../rsschool-cv/assets/images/projects.jpg" title="Projects" alt="Projects" width="340" height="340">
       </article>
     </section>
-    <section class="education">
+    <section id="education" class="education">
       <article class="education_container">
         <img src="../rsschool-cv/assets/images/education.jpg" title="Education" alt="Education" width="340" height="340">
         <div class="education_description">
@@ -149,10 +173,10 @@
         </div>
       </article>
     </section>
-    <section class="languages">
+    <section id="languages" class="languages">
       <article class="languages_container">
         <div class="languages_description">
-          <h2>Languages</h2>
+          <h2 id="languages">Languages</h2>
           <ul>
             <li id="english">
               <strong>English:</strong> A2 (Elementary)
@@ -165,8 +189,13 @@
         <img src="../rsschool-cv/assets/images/languages.jpg" title="Languages" alt="Languages" width="340" height="340">
       </article>
     </section>
+    <div class="transition_three">
+    </div>
   </main>
   <footer>
+    <a href="https://rs.school/js/"><img src="../rsschool-cv/assets/icons/rss.svg" title="RSS" alt="RSS" width="155" height="56"></a>
+    <p>Ⓒ 2023 Created by Alexey Shelukhin</p>
+    <a href="https://github.com/Forlocks"><img src="../rsschool-cv/assets/icons/gh.svg" title="GH" alt="GH" width="70" height="70"></a>
   </footer>
 </body>
 </html>
