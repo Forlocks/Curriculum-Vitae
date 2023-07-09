@@ -2,8 +2,215 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Aleksey Shelukhin</title>
+  <link rel="icon" href="assets/icons/favicon.ico">
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/animation.css">
+  <link rel="stylesheet" href="styles/adaptive.css">
 </head>
 <body>
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <form action="#contacts">
+            <button>Contact information</button>
+          </form>
+        </li>
+        <li>
+          <form action="#about">
+            <button>About me</button>
+          </form>
+        </li>
+        <li>
+          <form action="#skills">
+            <button>Skills</button>
+          </form>
+        </li>
+        <li>
+          <form action="#code">
+            <button>Code example</button>
+          </form>
+        </li>
+        <li>
+          <form action="#projects">
+            <button>Projects</button>
+          </form>
+        </li>
+        <li>
+          <form action="#education">
+            <button>Education</button>
+          </form>
+        </li>
+        <li>
+          <form action="#languages">
+            <button>Languages</button>
+          </form>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="title">
+      <img src="../rsschool-cv/assets/images/avatar.jpg" title="My photo" alt="My photo" width="400" height="400">
+      <h1>
+        Aleksey Shelukhin
+      </h1>
+    </section>
+    <div class="transition_one">
+    </div>
+    <section class="code">
+      <h2 id="code">CODE EXAMPLE</h2>
+      <pre><code><span style="color: rgb(0, 228, 0);">'use strict';</span>
+
+<span style="color: rgb(154, 154, 154)">/*
+A function that returns an array of integers
+from the given number up to and including 1
+*/
+</span>
+<span style="color: rgb(255, 75, 255);">function</span> <span style="color: rgb(0, 214, 189);">reverseArr</span>(n) {
+<span style="color: rgb(255, 75, 255);">  let</span> arr = [];
+<span style="color: rgb(255, 75, 255);">  let</span> j = -1;
+
+<span style="color: rgb(255, 75, 255)">  while</span> (n > 0) {
+    arr[++j] = n;
+    --n;
+  }
+
+<span style="color: rgb(255, 75, 255)">  return</span> arr;
+}</code></pre>
+    </section>
+    <div class="transition_two">
+    </div>
+    <div class="contacts">
+      <article id="contacts" class="contacts_container">
+        <img src="../rsschool-cv/assets/images/contact_information.jpg" title="Contact information" alt="Contact information" width="340" height="340">
+        <div class="contacts_description">
+          <h2>Contact information</h2>
+          <ul>
+            <li>
+              <strong>E-mail:</strong> sheluhen@mail.ru
+            </li>
+            <li>
+              <strong>GitHub:</strong> <a style="text-decoration: none;" href="https://github.com/Forlocks">https://github.com/Forlocks</a>
+            </li>
+            <li>
+              <strong>Discord server RSS:</strong> Forlock (@Forlocks)
+            </li>
+          </ul>
+        </div>
+      </article>
+    </div>
+    <div class="about">
+      <article id="about" class="about_container">
+        <div class="about_description">
+          <h2>About me</h2>
+          <p>
+            I am 20 years old, study at the St. Petersburg State University of Aerospace Instrumentation.
+            At the beginning of my second year at university, I became interested in the profession of a front-end developer,
+            after which I began to take various free courses on learning HTML, CSS and JS.
+            I hope to get more knowledge in the RS School courses so that I can become a junior front-end developer as a result.
+          </p>
+        </div>
+        <img src="../rsschool-cv/assets/images/about_me.jpg" title="About me" alt="About me" width="340" height="340">
+      </article>
+    </div>
+    <div class="skills">
+      <article id="skills" class="skills_container">
+        <img src="../rsschool-cv/assets/images/skills.jpg" title="Skills" alt="Skills" width="340" height="340">
+        <div class="skills_description">
+          <h2>Skills</h2>
+          <ul>
+            <li>
+              Markdown
+            </li>
+            <li>
+              HTML
+            </li>
+            <li>
+              CSS (+Bootstrap)
+            </li>
+            <li>
+              JS (basics)
+            </li>
+            <li>
+              Git and GitHub
+            </li>
+            <li>
+              VSCode
+            </li>
+          </ul>
+        </div>
+      </article>
+    </div>
+    <div class="projects">
+      <article id="projects" class="projects_container">
+        <div class="projects_description">
+          <h2>Projects</h2>
+          <ul>
+            <li>
+              <a style="text-decoration: none;" href="https://Forlocks.github.io/rsschool-cv/">Curriculum Vitae</a>
+            </li>
+            <li>
+              Next projects coming soon...
+            </li>
+          </ul>
+        </div>
+        <img src="../rsschool-cv/assets/images/projects.jpg" title="Projects" alt="Projects" width="340" height="340">
+      </article>
+    </div>
+    <div class="education">
+      <article id="education" class="education_container">
+        <img src="../rsschool-cv/assets/images/education.jpg" title="Education" alt="Education" width="340" height="340">
+        <div class="education_description">
+          <h2>Education</h2>
+          <ul>
+            <li>
+              Courses on the educational platform Stepik:
+              <ul id="education_ul">
+                <li>
+                  Web Development for Beginners: HTML &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and CSS (100% + Certificate)
+                </li>
+                <li>
+                  JavaScript for Beginners (100% + &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Certificate)
+                </li>
+              </ul>
+            </li>
+            <li>
+              Learn.javascript (in the process)
+            </li>
+            <li>
+              RS School Course «JavaScript/Front-end. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stage 0» (in the process)
+            </li>
+          </ul>
+        </div>
+      </article>
+    </div>
+    <div class="languages">
+      <article id="languages" class="languages_container">
+        <div class="languages_description">
+          <h2>Languages</h2>
+          <ul>
+            <li id="english">
+              <strong>English:</strong> A2 (Elementary)
+            </li>
+            <li id="russian">
+              <strong>Russian:</strong> 100%
+            </li>
+          </ul>
+        </div>
+        <img src="../rsschool-cv/assets/images/languages.jpg" title="Languages" alt="Languages" width="340" height="340">
+      </article>
+    </div>
+    <div class="transition_three">
+    </div>
+  </main>
+  <footer>
+    <a href="https://rs.school/js/"><img src="../rsschool-cv/assets/icons/rss.svg" title="RSS" alt="RSS" width="155" height="56"></a>
+    <p>Ⓒ 2023 Created by Alexey Shelukhin</p>
+    <a href="https://github.com/Forlocks"><img src="../rsschool-cv/assets/icons/gh.svg" title="GH" alt="GH" width="70" height="70"></a>
+  </footer>
 </body>
 </html>
