@@ -49,6 +49,20 @@ header ul {
 }
 
 header li {
+  display: block;
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+header form {
+  display: block;
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+}
+
+header button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,7 +77,7 @@ header li {
   cursor: pointer;
 }
 
-header li:hover {
+header button:hover {
   background: linear-gradient(#FCFCFC, 15%, #185b4d);
 }
 
@@ -440,7 +454,7 @@ pre {
   list-style-position: inside;
 }
 
-ul#education {
+ul#education_ul {
   width: 84%;
   list-style-type: disc;
 }

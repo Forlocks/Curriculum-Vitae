@@ -14,27 +14,41 @@
   <header>
     <nav>
       <ul>
-        <a href="#contacts" style="text-decoration: none; color: #FCFCFC"><li>
-          Contact information
-        </li></a>
-        <a href="#about" style="text-decoration: none; color: #FCFCFC"><li>
-          About me
-        </li></a>
-        <a href="#skills" style="text-decoration: none; color: #FCFCFC"><li>
-          Skills
-        </li></a>
-        <a href="#code" style="text-decoration: none; color: #FCFCFC"><li>
-          Code example
-        </li></a>
-        <a href="#projects" style="text-decoration: none; color: #FCFCFC"><li>
-          Projects
-        </li></a>
-        <a href="#education" style="text-decoration: none; color: #FCFCFC"><li>
-          Education
-        </li></a>
-        <a href="#languages" style="text-decoration: none; color: #FCFCFC"><li>
-          Languages
-        </li></a>
+        <li>
+          <form action="#contacts">
+            <button>Contact information</button>
+          </form>
+        </li>
+        <li>
+          <form action="#about">
+            <button>About me</button>
+          </form>
+        </li>
+        <li>
+          <form action="#skills">
+            <button>Skills</button>
+          </form>
+        </li>
+        <li>
+          <form action="#code">
+            <button>Code example</button>
+          </form>
+        </li>
+        <li>
+          <form action="#projects">
+            <button>Projects</button>
+          </form>
+        </li>
+        <li>
+          <form action="#education">
+            <button>Education</button>
+          </form>
+        </li>
+        <li>
+          <form action="#languages">
+            <button>Languages</button>
+          </form>
+        </li>
       </ul>
     </nav>
   </header>
@@ -47,8 +61,8 @@
     </section>
     <div class="transition_one">
     </div>
-    <section id="code" class="code">
-      <h2>CODE EXAMPLE</h2>
+    <section class="code">
+      <h2 id="code">CODE EXAMPLE</h2>
       <pre><code><span style="color: rgb(0, 228, 0);">'use strict';</span>
 
 <span style="color: rgb(154, 154, 154)">/*
@@ -70,8 +84,8 @@ from the given number up to and including 1
     </section>
     <div class="transition_two">
     </div>
-    <section id="contacts" class="contacts">
-      <article class="contacts_container">
+    <div class="contacts">
+      <article id="contacts" class="contacts_container">
         <img src="../rsschool-cv/assets/images/contact_information.jpg" title="Contact information" alt="Contact information" width="340" height="340">
         <div class="contacts_description">
           <h2>Contact information</h2>
@@ -88,9 +102,9 @@ from the given number up to and including 1
           </ul>
         </div>
       </article>
-    </section>
-    <section id="about" class="about">
-      <article class="about_container">
+    </div>
+    <div class="about">
+      <article id="about" class="about_container">
         <div class="about_description">
           <h2>About me</h2>
           <p>
@@ -102,9 +116,9 @@ from the given number up to and including 1
         </div>
         <img src="../rsschool-cv/assets/images/about_me.jpg" title="About me" alt="About me" width="340" height="340">
       </article>
-    </section>
-    <section id="skills" class="skills">
-      <article class="skills_container">
+    </div>
+    <div class="skills">
+      <article id="skills" class="skills_container">
         <img src="../rsschool-cv/assets/images/skills.jpg" title="Skills" alt="Skills" width="340" height="340">
         <div class="skills_description">
           <h2>Skills</h2>
@@ -130,9 +144,9 @@ from the given number up to and including 1
           </ul>
         </div>
       </article>
-    </section>
-    <section id="projects" class="projects">
-      <article class="projects_container">
+    </div>
+    <div class="projects">
+      <article id="projects" class="projects_container">
         <div class="projects_description">
           <h2>Projects</h2>
           <ul>
@@ -146,16 +160,16 @@ from the given number up to and including 1
         </div>
         <img src="../rsschool-cv/assets/images/projects.jpg" title="Projects" alt="Projects" width="340" height="340">
       </article>
-    </section>
-    <section id="education" class="education">
-      <article class="education_container">
+    </div>
+    <div class="education">
+      <article id="education" class="education_container">
         <img src="../rsschool-cv/assets/images/education.jpg" title="Education" alt="Education" width="340" height="340">
         <div class="education_description">
           <h2>Education</h2>
           <ul>
             <li>
               Courses on the educational platform Stepik:
-              <ul id="education">
+              <ul id="education_ul">
                 <li>
                   Web Development for Beginners: HTML &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and CSS (100% + Certificate)
                 </li>
@@ -173,11 +187,11 @@ from the given number up to and including 1
           </ul>
         </div>
       </article>
-    </section>
-    <section id="languages" class="languages">
-      <article class="languages_container">
+    </div>
+    <div class="languages">
+      <article id="languages" class="languages_container">
         <div class="languages_description">
-          <h2 id="languages">Languages</h2>
+          <h2>Languages</h2>
           <ul>
             <li id="english">
               <strong>English:</strong> A2 (Elementary)
@@ -189,7 +203,7 @@ from the given number up to and including 1
         </div>
         <img src="../rsschool-cv/assets/images/languages.jpg" title="Languages" alt="Languages" width="340" height="340">
       </article>
-    </section>
+    </div>
     <div class="transition_three">
     </div>
   </main>
