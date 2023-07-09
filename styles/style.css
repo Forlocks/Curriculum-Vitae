@@ -55,10 +55,10 @@ header li {
   width: 200px;
   height: 50px;
   border-radius: 25px;
+  text-align: center;
   font-family: Kdam, sans-serif;
   font-size: 20px;
   color: #FCFCFC;
-  text-align: center;
   background: linear-gradient(#FFFFFF, 15%, #21806d);
   cursor: pointer;
 }
@@ -92,11 +92,12 @@ main {
 
 h1 {
   display: block;
+  width: 1015px;
+  text-align: center;
   font-family: Kdam, sans-serif;
   font-size: 120px;
   line-height: normal;
   color: #FCFCFC;
-  text-align: center;
 }
 
 .transition_one {
@@ -119,11 +120,11 @@ h1 {
 .code h2 {
   display: block;
   width: 100%;
+  text-align: center;
   font-family: Kdam, sans-serif;
   font-size: 50px;
   line-height: 1;
   color: #FCFCFC;
-  text-align: center;
   text-decoration: underline #FCFCFC;
 }
 
@@ -153,7 +154,6 @@ pre {
 
 .contacts_container {
   display: flex;
-  box-shadow: 75px 75px 100px 0px #072631;
   align-items: center;
   width: 1000px;
   height: 410px;
@@ -161,6 +161,7 @@ pre {
   border-radius: 100px;
   margin-right: 100px;
   background-color: #21806d;
+  box-shadow: 75px 75px 100px 0px #072631;
 }
 
 .contacts img {
@@ -174,9 +175,9 @@ pre {
 .contacts_description {
   display: flex;
   flex-direction: column;
+  align-items: center;
   height: 100%;
   width: 100%;
-  align-items: center;
 }
 
 .contacts h2 {
@@ -213,7 +214,6 @@ pre {
 
 .about_container {
   display: flex;
-  box-shadow: 75px 75px 100px 0px #072631;
   align-items: center;
   width: 1000px;
   height: 410px;
@@ -221,6 +221,7 @@ pre {
   border-radius: 100px;
   margin-left: 100px;
   background-color: #21806d;
+  box-shadow: 75px 75px 100px 0px #072631;
 }
 
 .about img {
@@ -234,9 +235,9 @@ pre {
 .about_description {
   display: flex;
   flex-direction: column;
+  align-items: center;
   height: 100%;
   width: 100%;
-  align-items: center;
 }
 
 .about h2 {
@@ -270,7 +271,6 @@ pre {
 
 .skills_container {
   display: flex;
-  box-shadow: 75px 75px 100px 0px #072631;
   align-items: center;
   width: 1000px;
   height: 410px;
@@ -278,6 +278,7 @@ pre {
   border-radius: 100px;
   margin-right: 100px;
   background-color: #21806d;
+  box-shadow: 75px 75px 100px 0px #072631;
 }
 
 .skills img {
@@ -291,9 +292,9 @@ pre {
 .skills_description {
   display: flex;
   flex-direction: column;
+  align-items: center;
   height: 100%;
   width: 100%;
-  align-items: center;
 }
 
 .skills h2 {
@@ -315,8 +316,8 @@ pre {
   font-family: Abel, sans-serif;
   font-size: 35px;
   line-height: 50px;
-  list-style-position: inside;
   color: #FCFCFC;
+  list-style-position: inside;
 }
 
 .projects {
@@ -330,7 +331,6 @@ pre {
 
 .projects_container {
   display: flex;
-  box-shadow: 75px 75px 100px 0px #072631;
   align-items: center;
   width: 1000px;
   height: 410px;
@@ -338,6 +338,7 @@ pre {
   border-radius: 100px;
   margin-left: 100px;
   background-color: #21806d;
+  box-shadow: 75px 75px 100px 0px #072631;
 }
 
 .projects img {
@@ -351,9 +352,9 @@ pre {
 .projects_description {
   display: flex;
   flex-direction: column;
+  align-items: center;
   height: 100%;
   width: 100%;
-  align-items: center;
 }
 
 .projects h2 {
@@ -375,8 +376,8 @@ pre {
   font-family: Abel, sans-serif;
   font-size: 42px;
   line-height: 60px;
-  list-style-position: inside;
   color: #FCFCFC;
+  list-style-position: inside;
 }
 
 .education {
@@ -390,7 +391,6 @@ pre {
 
 .education_container {
   display: flex;
-  box-shadow: 75px 75px 100px 0px #072631;
   align-items: center;
   width: 1000px;
   height: 410px;
@@ -398,6 +398,7 @@ pre {
   border-radius: 100px;
   margin-right: 100px;
   background-color: #21806d;
+  box-shadow: 75px 75px 100px 0px #072631;
 }
 
 .education img {
@@ -411,9 +412,9 @@ pre {
 .education_description {
   display: flex;
   flex-direction: column;
+  align-items: center;
   height: 100%;
   width: 100%;
-  align-items: center;
 }
 
 .education h2 {
@@ -435,8 +436,8 @@ pre {
   font-family: Abel, sans-serif;
   font-size: 28px;
   line-height: 38px;
-  list-style-position: inside;
   color: #FCFCFC;
+  list-style-position: inside;
 }
 
 ul#education {
@@ -455,7 +456,6 @@ ul#education {
 
 .languages_container {
   display: flex;
-  box-shadow: 75px 75px 100px 0px #072631;
   align-items: center;
   width: 1000px;
   height: 410px;
@@ -463,6 +463,7 @@ ul#education {
   border-radius: 100px;
   margin-left: 100px;
   background-color: #21806d;
+  box-shadow: 75px 75px 100px 0px #072631;
 }
 
 .languages img {
@@ -476,9 +477,9 @@ ul#education {
 .languages_description {
   display: flex;
   flex-direction: column;
+  align-items: center;
   height: 100%;
   width: 100%;
-  align-items: center;
 }
 
 .languages h2 {
@@ -500,8 +501,8 @@ ul#education {
   font-family: Abel, sans-serif;
   font-size: 42px;
   line-height: 80px;
-  list-style-position: inside;
   color: #FCFCFC;
+  list-style-position: inside;
 }
 
 #english {
@@ -514,21 +515,21 @@ ul#education {
 
 .transition_three {
   display: block;
-  background: linear-gradient(#106482, 50%, #0c4458);
   width: 100%;
   height: 150px;
+  background: linear-gradient(#106482, 50%, #0c4458);
 }
 
 footer {
   display: flex;
-  background-color: #0c4458;
-  width: 100%;
-  height: 200px;
   justify-content: space-around;
   align-items: center;
+  width: 100%;
+  height: 200px;
   font-family: Abel, sans-serif;
   font-size: 25px;
   line-height: 1;
-  list-style-position: inside;
   color: #FCFCFC;
+  background-color: #0c4458;
+  list-style-position: inside;
 }
