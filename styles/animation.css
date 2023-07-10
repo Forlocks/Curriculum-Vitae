@@ -1,0 +1,78 @@
+
+@keyframes right_container {
+  from {
+    margin-bottom: 0px;
+    margin-right: 100px;
+  }
+
+  to {
+    margin-bottom: 25px;
+    margin-right: 125px;
+  }
+}
+
+@keyframes left_container {
+  from {
+    margin-bottom: 0px;
+    margin-left: 100px;
+  }
+
+  to {
+    margin-bottom: 25px;
+    margin-left: 125px;
+  }
+}
+
+header li:hover {
+  background: linear-gradient(#FCFCFC, 15%, #185b4d);
+}
+
+main a:visited {
+  color: #FCFCFC;
+}
+
+main a:hover {
+  color: #00eaff;
+}
+
+.contacts_container:hover {
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-name: right_container;
+  animation-fill-mode: forwards;
+}
+
+.about_container:hover {
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-name: left_container;
+  animation-fill-mode: forwards;
+}
+
+.skills_container:hover {
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-name: right_container;
+  animation-fill-mode: forwards;
+}
+
+.projects_container:hover {
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-name: left_container;
+  animation-fill-mode: forwards;
+}
+
+.education_container:hover {
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-name: right_container;
+  animation-fill-mode: forwards;
+}
+
+.languages_container:hover {
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-name: left_container;
+  animation-fill-mode: forwards;
+}
